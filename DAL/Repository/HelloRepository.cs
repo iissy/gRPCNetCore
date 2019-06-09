@@ -9,7 +9,7 @@ namespace ASY.Hrefs.DAL.Repository
     {
         public string SayHello(string message)
         {
-            return message + "world!";
+            return message + "hello world!";
         }
     }
 }

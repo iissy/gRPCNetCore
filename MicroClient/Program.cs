@@ -22,7 +22,7 @@ namespace ASY.Hrefs.MicroClient
         static void Run(int i)
         {
             HelloRequest request = new HelloRequest();
-            request.Name = i.ToString();
+            request.Name = "Jimmy, " + i.ToString();
             HelloReply reply = new HelloReply();
             reply = GrpcClient.SayHello(request);
             Console.WriteLine(reply.Message);
